@@ -4,7 +4,7 @@ function Name() {
     const [name,SetName]=useState
   return (
     <div>
-       <input type='text' value={name} onChange={(e)=>SetName(e.target.value)}/>
+       <input type='text' onChange={(e)=>SetName(e.target.value)}/>
     </div>
   )
 }
